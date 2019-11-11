@@ -1,0 +1,7 @@
+
+numbers=[]
+
+numbers.sort((first, second) => second - first);
+
+const top10numbers = numbers.slice(0, 10);
+console.log(top10numbers);
